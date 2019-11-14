@@ -22,7 +22,7 @@ def get_filters():
     while city not in cities:
          city = input("please write a valid name (chicago, new york city, washington):")
     # TO DO: get user input for month (all, january, february, ... , june)
-    month_filter = ["all","january","february","march","april","may","june","juily","august","september","october","november","december"]
+    month_filter = ["all","january","february","march","april","may","june","july","august","september","october","november","december"]
     month = input("please name of the month to filter by, or all to apply no month filter : ").lower()
     while month not in month_filter:
          month = input("please enter a valid option : ").lower()
@@ -56,7 +56,7 @@ def load_data(city, month, day):
     month_filter, day_filter = "no", "no"
 
     if month != "all":
-        index_of_monthes = ["january","february","march","april","may","june","juily","august","september","october","november","december"]
+        index_of_monthes = ["january","february","march","april","may","june","july","august","september","october","november","december"]
         month = index_of_monthes.index(month) + 1
         df = df[df["month"] == month]
         month_filter = "yes"
