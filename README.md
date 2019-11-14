@@ -1,15 +1,17 @@
 ### Date created
-Include the date you created this project and README file.
+11/2/2019
+
+### Modification Date
+11/13/2019
 
 ### Project Title
-Replace the Project Title
-
+Python to Explore Bike Share Data
 ### Description
-Describe what your project is about and what it does
-
+In this project, Python is used to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. The code imports the data and answers interesting questions about it by computing descriptive statistics. In addition, a script that takes in raw input is written to create an interactive experience in the terminal to present these statistics.
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+All thanks to the great community at Udacity !
